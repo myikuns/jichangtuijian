@@ -245,6 +245,15 @@ function main(config) {
   config["proxy-groups"] = [
     {
       ...groupBaseOption,
+      "name": "节点列表",
+      "type": "select",
+      "proxies": ["延迟选优", "故障转移"],
+      "include-all": true,
+      "filter": "^(?!.*(官网|套餐|流量|异常|剩余)).*$",
+      "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg"
+    },
+    {
+      ...groupBaseOption,
       "name": "延迟选优",
       "type": "url-test",
       "interval":120,
@@ -252,15 +261,6 @@ function main(config) {
       "include-all": true,
       "filter": "^(?!.*(官网|套餐|流量|异常|剩余)).*$",
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/speed.svg"
-    },
-    {
-      ...groupBaseOption,
-      "name": "节点列表",
-      "type": "select",
-      "proxies": ["延迟选优", "故障转移"],
-      "include-all": true,
-      "filter": "^(?!.*(官网|套餐|流量|异常|剩余)).*$",
-      "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg"
     },
     {
       ...groupBaseOption,
