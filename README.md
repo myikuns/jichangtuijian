@@ -6,4 +6,4 @@ Binance 币安（专享 15% 交易手续费返还）→ [**《币安专属邀请
 
 ## 访问网页查看机场推荐：https://myikuns.github.io/jichangtuijian
 
-## 另外一个专属项目：https://github.com/myikuns/jichangtz-tuijian
+## 分层级且详细的机场内容推荐：https://github.com/myikuns/jichangtz-tuijian
